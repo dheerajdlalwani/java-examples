@@ -1,2 +1,2 @@
 # java-examples
-A few Java programs I am trying to practice Java
+A few Java practice programs for getting used to the Java syntax.
