@@ -5,11 +5,13 @@ class Leap
 
     private int year, isLeap;
 
-    public void getYear() 
+    public Leap()
     {
-        System.out.println("Enter year: ");
-        Scanner s = new Scanner(System.in);
-        year = s.nextInt();
+
+    }
+    public Leap(int yr)
+    {
+        year = yr;
     }
 
     public void check() 
@@ -52,8 +54,11 @@ public class LeapYear
 {
     public static void main(String args[]) 
     {
-        Leap x = new Leap();
-        x.getYear();
+        int year;
+        System.out.println("Enter year: ");
+        Scanner s = new Scanner(System.in);
+        year = s.nextInt();
+        Leap x = new Leap(year);
         x.check();
         x.putData();
     }
