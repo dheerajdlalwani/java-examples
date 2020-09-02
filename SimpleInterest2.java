@@ -1,10 +1,8 @@
 // 2 class method (get data, put data)
-
 import java.util.Scanner;
 
 class Interest {
     private double p, t, r, si;
-
     public Interest()
     {
 
@@ -28,15 +26,15 @@ class Interest {
 
 public class SimpleInterest2 {
     public static void main(String args[]) {
-        
+        Interest X = new Interest();
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter p, t & r");
         double x = s.nextDouble();
         double y = s.nextDouble();
         double z = s.nextDouble();
-        Interest X = new Interest(x, y, z);
+        X = new Interest(x, y, z);
         X.calculation();
-        double output = X. getSI();
+        double output = X.getSI();
         System.out.println("Simple interest = " + output);
 
     }
