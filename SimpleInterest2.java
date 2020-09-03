@@ -36,6 +36,6 @@ public class SimpleInterest2 {
         X.calculation();
         double output = X.getSI();
         System.out.println("Simple interest = " + output);
-
+        s.close();
     }
 }

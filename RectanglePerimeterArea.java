@@ -1,7 +1,3 @@
-import java.util.*;
-
-import org.w3c.dom.css.Rect;
-
 class Rectangle
 {
     private double length, breadth, perimeter, area;

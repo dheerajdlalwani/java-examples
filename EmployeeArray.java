@@ -143,5 +143,7 @@ public class EmployeeArray {
 
         System.out.println("\n");
 
+        s.close();
+
     }    
 }

@@ -61,6 +61,7 @@ public class LeapYear
         Leap x = new Leap(year);
         x.check();
         x.putData();
+        s.close();
     }
 
 }

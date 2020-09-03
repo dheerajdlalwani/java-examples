@@ -46,6 +46,7 @@ public class ArraySort {
         {
             System.out.println("  x[" + i + "] = " + y[i] );
         }
+        s.close();
     }
     
 }

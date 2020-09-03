@@ -70,5 +70,6 @@ public class PrimeCheck
         {
             System.out.println(number + " is not a Prime Number");
         }
+        X.close();
     }
 }

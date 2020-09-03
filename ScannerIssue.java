@@ -14,6 +14,7 @@ public class ScannerIssue
         String arrivalCity = scanner.nextLine();
 	    System.out.println("Flight number1:" +flightNumber1);
 	    System.out.println("Departure:" +departingCity);
-	    System.out.println("Arrial:" +arrivalCity);
+        System.out.println("Arrial:" +arrivalCity);
+        scanner.close();
     }
 }

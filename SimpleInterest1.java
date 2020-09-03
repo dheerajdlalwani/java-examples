@@ -17,5 +17,6 @@ public class SimpleInterest1 {
 
 		// Display Simple Interest
 		System.out.println("Simple Interest = " + si);
+		s.close();
 	}
 }
