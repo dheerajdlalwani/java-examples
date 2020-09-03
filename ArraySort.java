@@ -25,14 +25,14 @@ public class ArraySort {
     public static void main(String [] args)
     {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter the size of the array: ");
+        System.out.print("  Enter the size of the array: ");
         int n = s.nextInt();
 
         int x [] = new int[n];
 
         for(int i = 0; i < x.length; i++)
         {
-            System.out.print("x[" + i + "] = ");
+            System.out.print("  x[" + i + "] = ");
             x[i] = s.nextInt();
         }
 
@@ -40,11 +40,11 @@ public class ArraySort {
 
         int y[] = srt.sort(x);
 
-        System.out.println("Sorted array is: \n");
+        System.out.println("  Sorted array is: \n");
 
         for(int i = 0; i < x.length; i++)
         {
-            System.out.println("x[" + i + "] = " + y[i] );
+            System.out.println("  x[" + i + "] = " + y[i] );
         }
     }
     
